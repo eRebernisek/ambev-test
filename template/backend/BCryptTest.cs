@@ -1,0 +1,1 @@
+using BCrypt.Net; class Program { static void Main() { var hash = "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewLxNyYHm4L.Cavu"; var password = "Admin123"; var result = BCrypt.Verify(password, hash); Console.WriteLine($"Verification result: {result}"); } }
