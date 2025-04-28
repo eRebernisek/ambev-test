@@ -17,9 +17,6 @@
 - The container name is "ambev_test"
 - The container runs in detached mode (-d flag)
 
-## Initial Database Setup
-The database is automatically initialized with the following:
-
 ### Default Tables
 - **Users** table with columns:
   - Id (uuid, primary key)
